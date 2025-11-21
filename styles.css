@@ -8,30 +8,23 @@
 /* General styling */
 body {
     font-family: 'Poppins', sans-serif;
-<<<<<<< HEAD
     background: linear-gradient(to bottom, #e0f2fe 0%, #fef9c3 50%, #fce7f3 100%);
     background-attachment: fixed;
     color: #1e293b;
-=======
     background: #f5f5f5; /* Abu-abu terang sebagai latar belakang minimalis */
     color: #1e1e1e; /* Hitam pekat untuk teks utama */
->>>>>>> 428bea4 (almighty push)
     line-height: 1.7;
     overflow-x: hidden;
 }
 
 /* Container for consistent width - Increased max-width for wider desktop layout */
 .container {
-<<<<<<< HEAD
     max-width: 900px;
-=======
     max-width: 1200px; /* Retained wider layout */
->>>>>>> 428bea4 (almighty push)
     margin: 0 auto;
     padding: 0 20px;
 }
 
-<<<<<<< HEAD
 /* Header (Hero) styling - Bright and dynamic */
 #hero {
     background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%);
@@ -40,7 +33,6 @@ body {
     text-align: center;
     position: relative;
     box-shadow: 0 10px 40px rgba(6, 182, 212, 0.3);
-=======
 /* Navbar styling */
 .navbar {
     background: #2d2d2d; /* Abu-abu gelap untuk navbar */
@@ -104,13 +96,10 @@ body {
     padding: 80px 20px;
     position: relative;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05); /* Bayangan halus */
->>>>>>> 428bea4 (almighty push)
     border-radius: 0 0 50px 50px;
     animation: fadeInDown 0.8s ease;
 }
 
-<<<<<<< HEAD
-=======
 #hero .container {
     display: flex;
     flex-direction: column;
@@ -128,7 +117,6 @@ body {
     border: 3px solid #ffffff;
 }
 
->>>>>>> 428bea4 (almighty push)
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -144,10 +132,7 @@ body {
     font-size: 2.8rem;
     margin-bottom: 15px;
     font-weight: 700;
-<<<<<<< HEAD
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-=======
->>>>>>> 428bea4 (almighty push)
     animation: slideIn 1s ease;
 }
 
@@ -166,7 +151,6 @@ body {
     font-size: 1.6rem;
     margin-bottom: 15px;
     font-weight: 400;
-<<<<<<< HEAD
     opacity: 0.95;
 }
 
@@ -174,7 +158,6 @@ body {
     font-size: 1.2rem;
     margin-bottom: 35px;
     opacity: 0.9;
-=======
     color: #4a4a4a; /* Abu-abu gelap untuk subjudul */
 }
 
@@ -183,35 +166,27 @@ body {
     margin-bottom: 25px;
     color: #666666; /* Abu-abu untuk teks sekunder */
     max-width: 500px;
->>>>>>> 428bea4 (almighty push)
 }
 
 .cta-button {
     display: inline-block;
-<<<<<<< HEAD
     background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
     color: #1e293b;
     padding: 14px 40px;
-=======
     background: #4a4a4a; /* Abu-abu gelap untuk tombol */
     color: #ffffff;
     padding: 12px 35px;
->>>>>>> 428bea4 (almighty push)
     text-decoration: none;
     border-radius: 50px;
     font-weight: 600;
     margin-bottom: 20px;
-<<<<<<< HEAD
     box-shadow: 0 5px 20px rgba(251, 191, 36, 0.4);
-=======
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
->>>>>>> 428bea4 (almighty push)
     transition: all 0.4s ease;
 }
 
 .cta-button:hover {
     transform: translateY(-3px) scale(1.05);
-<<<<<<< HEAD
     box-shadow: 0 8px 30px rgba(251, 191, 36, 0.6);
     background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
 }
@@ -223,7 +198,6 @@ body {
 }
 
 /* Section styling - Clean and bright */
-=======
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
     background: #333333; /* Abu-abu lebih gelap untuk hover */
 }
@@ -235,7 +209,6 @@ body {
 }
 
 /* Section styling - Clean and minimal */
->>>>>>> 428bea4 (almighty push)
 .section {
     padding: 70px 0;
     position: relative;
@@ -255,11 +228,8 @@ body {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 15px;
-<<<<<<< HEAD
     color: #0c4a6e;
-=======
     color: #1e1e1e;
->>>>>>> 428bea4 (almighty push)
     font-weight: 700;
     position: relative;
     display: inline-block;
@@ -275,11 +245,8 @@ body {
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-<<<<<<< HEAD
     background: linear-gradient(90deg, #0ea5e9, #14b8a6);
-=======
     background: #4a4a4a; /* Garis monokrom */
->>>>>>> 428bea4 (almighty push)
     border-radius: 2px;
 }
 
@@ -290,16 +257,12 @@ body {
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
     color: #334155;
-=======
     color: #666666;
->>>>>>> 428bea4 (almighty push)
 }
 
 /* About subsections */
 #about {
-<<<<<<< HEAD
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
     border-radius: 30px;
@@ -320,7 +283,6 @@ body {
 #projects {
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
-=======
     background: #ffffff; /* Latar putih */
     border-radius: 30px;
     margin: 20px;
@@ -339,13 +301,11 @@ body {
 /* Projects section - Colorful and dynamic */
 #projects {
     background: #ffffff;
->>>>>>> 428bea4 (almighty push)
     border-radius: 30px;
     margin: 20px;
     padding: 40px 20px;
 }
 
-<<<<<<< HEAD
 .projects-list {
     display: flex;
     flex-direction: column;
@@ -401,7 +361,8 @@ body {
     font-weight: 500;
     position: relative;
     z-index: 1;
-=======
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -460,22 +421,17 @@ body {
     color: #4a4a4a;
     margin-bottom: 15px;
     line-height: 1.6;
->>>>>>> 428bea4 (almighty push)
 }
 
 .project-link {
     display: inline-block;
-<<<<<<< HEAD
     color: #0ea5e9;
-=======
     background: #4a4a4a;
     color: #ffffff;
     padding: 10px 20px;
->>>>>>> 428bea4 (almighty push)
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
-<<<<<<< HEAD
     margin-bottom: 12px;
     padding: 6px 16px;
     background: rgba(14, 165, 233, 0.1);
@@ -543,7 +499,6 @@ body {
 
 .list-items a:hover {
     color: #0ea5e9;
-=======
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
@@ -581,17 +536,13 @@ body {
 .edu-logo:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
->>>>>>> 428bea4 (almighty push)
 }
 
 /* Skill Section Styling - Vibrant and animated */
 #skills {
-<<<<<<< HEAD
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
-=======
     background: #ffffff;
->>>>>>> 428bea4 (almighty push)
     border-radius: 30px;
     margin: 20px;
     padding: 40px 20px;
@@ -608,39 +559,30 @@ body {
 }
 
 .skill-item {
-<<<<<<< HEAD
     background: linear-gradient(135deg, #ffffff 0%, #fef3c7 100%);
     padding: 20px 25px;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(251, 191, 36, 0.15);
     transition: all 0.4s ease;
     border-left: 5px solid #fbbf24;
-=======
     background: #f5f5f5;
     padding: 20px 25px;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     transition: all 0.4s ease;
     border-left: 5px solid #4a4a4a;
->>>>>>> 428bea4 (almighty push)
 }
 
 .skill-item:hover {
     transform: translateX(10px) scale(1.02);
-<<<<<<< HEAD
     box-shadow: 0 8px 30px rgba(251, 191, 36, 0.25);
-=======
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
->>>>>>> 428bea4 (almighty push)
 }
 
 .skill-name {
     font-size: 1.2rem;
-<<<<<<< HEAD
     color: #1e293b;
-=======
     color: #1e1e1e;
->>>>>>> 428bea4 (almighty push)
     font-weight: 600;
     display: block;
     margin-bottom: 10px;
@@ -648,34 +590,19 @@ body {
 
 .skill-bar {
     width: 100%;
-<<<<<<< HEAD
     background-color: #e5e7eb;
     border-radius: 10px;
     height: 14px;
     overflow: hidden;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
-=======
-    background-color: #e0e0e0; /* Abu-abu terang untuk bar */
-    border-radius: 10px;
-    height: 14px;
-    overflow: hidden;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
->>>>>>> 428bea4 (almighty push)
 }
 
 .skill-progress {
     height: 100%;
-<<<<<<< HEAD
     background: linear-gradient(90deg, #fbbf24 0%, #f59e0b 100%);
     border-radius: 10px;
     transition: width 1s cubic-bezier(0.65, 0, 0.35, 1);
     box-shadow: 0 2px 8px rgba(251, 191, 36, 0.4);
-=======
-    background: #4a4a4a; /* Abu-abu gelap untuk progress */
-    border-radius: 10px;
-    transition: width 1s cubic-bezier(0.65, 0, 0.35, 1);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
->>>>>>> 428bea4 (almighty push)
     position: relative;
     overflow: hidden;
 }
@@ -702,18 +629,13 @@ body {
 
 .skill-percentage {
     font-size: 1.05rem;
-<<<<<<< HEAD
-    color: #0c4a6e;
-=======
     color: #2d2d2d;
->>>>>>> 428bea4 (almighty push)
     font-weight: 600;
     display: block;
     text-align: right;
     margin-top: 8px;
 }
 
-<<<<<<< HEAD
 /* Footer styling - Modern and bright */
 footer {
     background: linear-gradient(135deg, #0c4a6e 0%, #0284c7 100%);
@@ -739,46 +661,6 @@ footer p {
 
 footer a {
     color: #fbbf24;
-=======
-/* Footer styling - Balanced layout */
-footer {
-    background: #2d2d2d;
-    color: #ffffff;
-    padding: 40px 0;
-    box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.05);
-    margin-top: 40px;
-}
-
-footer .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer h2 {
-    color: #ffffff;
-    margin-bottom: 20px;
-    font-size: 1.8rem;
-    font-weight: 600;
-}
-
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.contact-info p {
-    margin: 0;
-    font-size: 1rem;
-    color: #bbbbbb; /* Abu-abu terang untuk teks footer */
-}
-
-.contact-info a {
-    color: #ffffff;
->>>>>>> 428bea4 (almighty push)
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -786,23 +668,11 @@ footer h2 {
     border-radius: 5px;
 }
 
-<<<<<<< HEAD
 footer a:hover {
     background: rgba(251, 191, 36, 0.2);
     color: #fde68a;
     transform: scale(1.05);
     display: inline-block;
-=======
-.contact-info a:hover {
-    background: rgba(255, 255, 255, 0.1);
-    color: #dddddd; /* Abu-abu lebih terang untuk hover */
-    transform: scale(1.05);
-}
-
-.copyright {
-    font-size: 0.9rem;
-    color: #bbbbbb;
->>>>>>> 428bea4 (almighty push)
 }
 
 /* Scroll animation */
@@ -823,45 +693,8 @@ footer a:hover {
 
 /* Responsive design - Mobile-first adjustments */
 @media (max-width: 768px) {
-<<<<<<< HEAD
     #hero {
         padding: 70px 20px;
-=======
-    .navbar .container {
-        flex-wrap: wrap;
-    }
-
-    .nav-links {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 0;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    .hamburger.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-    }
-
-    .hamburger.active span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -7px);
-    }
-
-    #hero {
-        padding: 60px 20px;
->>>>>>> 428bea4 (almighty push)
         border-radius: 0 0 30px 30px;
     }
 
@@ -888,7 +721,6 @@ footer a:hover {
 
     .section h2 {
         font-size: 2rem;
-<<<<<<< HEAD
     }
 
     .project-item {
@@ -897,49 +729,11 @@ footer a:hover {
 
     .list-items {
         gap: 12px;
-=======
-    }
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .project-image {
-        height: 160px;
-    }
-
-    .project-card h3 {
-        font-size: 1.4rem;
-    }
-
-    .project-card p {
-        font-size: 0.95rem;
-    }
-
-    .project-link {
-        padding: 8px 16px;
-    }
-
-    .education-logos {
-        gap: 20px;
-    }
-
-    .edu-logo {
-        width: 80px;
-        height: 80px;
->>>>>>> 428bea4 (almighty push)
     }
 
     #about, #projects, #education, #skills {
         margin: 10px;
         padding: 30px 15px;
-<<<<<<< HEAD
-=======
-    }
-
-    footer h2 {
-        font-size: 1.6rem;
->>>>>>> 428bea4 (almighty push)
     }
 }
 
